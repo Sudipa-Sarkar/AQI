@@ -1,0 +1,24 @@
+{
+  "name": "aqi",
+  "version": "1.0.0",
+  "description": "air quality of a city by Sudipa Sarkar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "air",
+    "quality",
+    "index",
+    "pollution",
+    "no2",
+    "co2"
+  ],
+  "author": "Sudipa Sarkar",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
