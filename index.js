@@ -20,7 +20,7 @@ app1.use(express.static('public'));
     //console.log(lat)
     const api_key =process.env.API_KEY;
     console.log(api_key);
-    const api_url='http://api.openweathermap.org/data/2.5/air_pollution?lat='+lati+'&lon='+longi+'&appid='+api_key+'';
+    const api_url='https://api.openweathermap.org/data/2.5/air_pollution?lat='+lati+'&lon='+longi+'&appid='+api_key+'';
     const fetch_response =await fetch(api_url);
     const data1 = await fetch_response.json();
     response.json(data1);
