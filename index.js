@@ -3,7 +3,8 @@ const express = require('express');
 const app1 = express();
 const fetch = require('node-fetch');
 require('dotenv').config()
-app1.listen(3000, () => console.log('listening at 3000'));
+const port = process.env.PORT || 3000;
+app1.listen(port, () => console.log('listening at '+port+''));
 app1.use(express.static('public'));
 
 //console.log(process.env);
