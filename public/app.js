@@ -19,7 +19,7 @@ let lat,lon;
  const get_info = async(event ) =>
 {
     event.preventDefault();
-  const resp = await fetch('http://open.mapquestapi.com/geocoding/v1/address?key=JB69ZJ0bqgZxmfFggnHV4NAAL7a5RMGQ&location='+input.value+'');
+  const resp = await fetch('https://open.mapquestapi.com/geocoding/v1/address?key=JB69ZJ0bqgZxmfFggnHV4NAAL7a5RMGQ&location='+input.value+'');
   const data = await resp.json();
   const arraydata=[data];
   //console.log(arraydata);
