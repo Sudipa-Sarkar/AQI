@@ -17,6 +17,8 @@
   "author": "Sudipa Sarkar",
   "license": "MIT",
   "dependencies": {
+    "actions-on-google": "^2.13.0",
+    "dialogflow-fulfillment": "^0.6.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1"
